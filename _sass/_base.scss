@@ -1,0 +1,119 @@
+body { padding-top: 110px; }
+
+.navbar-fixed-top {
+	height: 110px;
+	background-color: $primary-red;
+	border: 0px solid white;
+}
+
+.navbar-header {
+	height: 110px;
+}
+
+a.navbar-brand {
+	height: 110px;
+}
+
+#site-h1 {
+	color: $primary-navy;
+	text-transform: uppercase;
+	font-family: 'Avenir Next';
+	font-weight: 700;
+	font-size: 4em;
+	line-height: 110px * .75;
+	@include media-query(991px) {
+		font-size: 3em;
+	}
+}
+
+#main-nav {
+	height: 110px;
+	li {
+		//height: 110px;
+		padding-right: 10px;
+		padding-left: 10px;
+		a {
+			padding: 10px 10px;
+			margin: 35px 5px;
+			color: $primary-navy;
+			font-family: 'Avenir Next';
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 1.5em;
+			line-height: 1;
+			&:hover {
+				color: lighten($primary-navy,7.5%);
+				border: 3px solid lighten($primary-navy,7.5%);
+				margin: 32px 2px;
+				border-radius: 5px;
+			}
+			@include media-query(767px){
+				margin: 10px;
+				margin-left: 0;
+				padding: 20px;
+				padding-left: 10px;
+				&:hover {
+					border: 0 solid black;
+					padding: 10px;
+
+					margin: 20px;
+					margin-left: 0;
+					background: lighten($primary-red,7.5%);
+				}
+			}
+		}
+	}
+}
+
+.navbar-collapse {
+	height: 230px;
+	max-height: 1000px;
+	background-color: $primary-red;
+	border: 0px solid black;
+
+	@include media-query(767px){
+		box-shadow: 0 5px 5px rgba(0,0,0,.2);
+	}
+}
+
+
+#navbutton {
+	margin: 38px 20px;
+	border: 2px solid $primary-navy;
+	&:hover {
+		background-color: lighten($primary-red,10%);
+	}
+	span.icon-bar {
+		background-color: $primary-navy;
+		border: 1px solid $primary-navy;
+	}
+}
+
+#hero-section {
+	background-color: $primary-navy;
+	width: 100%;
+}
+
+#hero-content {
+	margin: $vertical-space*2 0;
+}
+
+#portfolio {
+	background-color: $background-grey;
+	width: 100%;
+	h3 {
+		padding: $vertical-space 0;
+		color: $primary-navy;
+	}
+}
+
+.col-md-4 {
+	//background-color: green;
+}
+
+.portfolio-item {
+	margin-bottom: 30px;
+	img {
+		width: 100%;
+	}
+}

@@ -7,6 +7,8 @@
 
     {% include header.html %}
 
+    {% include portfolio.html %}
+
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
@@ -16,16 +18,22 @@
     {% include footer.html %}
 
     <!-- Jquery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified Bootstrap JavaScript -->
+    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+    <script type="text/javascript">
+      $('.nav a').on(click,function() {
+        alert('hey!');
+      });
+    </script>
 
   </body>
 

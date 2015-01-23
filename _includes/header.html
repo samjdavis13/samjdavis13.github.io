@@ -3,31 +3,33 @@
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button id="navbutton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">{{ site.title }}</a>
+      <a class="navbar-brand" href="#" id="site-h1">{{ site.title }}</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+      <ul class="nav navbar-nav navbar-right" id="main-nav">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<!-- HERO SECTION -->
-<div class="container">
-  <div class="row">
+<!-- Hero Section -->
+<div class="container" id="hero-section">
+  <div class="row" id="hero-content">
     <div class="col-mid-12">
-      <img src="img/me.png">
+      <img class="center-block" src="img/me.png">
+      <h2 class="text-center" id="hero-text-1">SAM DAVIS</h2>
+      <h4 class="text-center" id="hero-text-2">DESIGNER + DEVELOPER</h4>
     </div>
   </div>
 </div>
