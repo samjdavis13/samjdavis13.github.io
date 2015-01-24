@@ -8,5 +8,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://samjdavis.com" # the base hostname & protocol for your site
 
+twitter: samjdavis
+instagram: samjdavis
+
 # Build settings
 markdown: kramdown
