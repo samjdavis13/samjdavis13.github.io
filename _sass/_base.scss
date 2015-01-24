@@ -100,16 +100,51 @@ a.navbar-brand {
 	h3 {
 		color: $primary-navy;
 	}
-}
-
-.col-md-4 {
-	//background-color: green;
+	img {
+		width: 100%;
+	}
 }
 
 .portfolio-item {
-	margin-bottom: 30px;
-	img {
+	margin-bottom: $vertical-space/2;
+}
+
+.caption {
+	position: absolute;
+
+	background-color: rgba($primary-red,.5);
+
+	overflow: hidden;
+
+	height: 100%;
+	left: 15px;
+	right: 15px;
+	opacity: 0;
+
+	transition: all ease .2s;
+
+	.caption-content {
+		position: absolute;
 		width: 100%;
+		top: 50%;
+		margin-top: -34px;
+		color: $primary-navy;
+	}
+
+	.caption-description {
+		background-color: rgba($primary-navy,.8);
+		position: absolute;
+		bottom: -25px;
+		transition: all ease .2s;
+		width: 100%;
+		padding: 10px 0 0 0;
+	}
+
+	&:hover {
+		opacity: 1;
+		.caption-description {
+			bottom: 0;
+		}
 	}
 }
 
