@@ -1,7 +1,7 @@
 # SamJDavis
 Home for my personal [website][1]
 
-todo:
+### Todo:
 
 1. Implement smooth scrolling nav links
 2. Hover on portfolio items
