@@ -102,7 +102,6 @@ a.navbar-brand {
 	background-color: $background-grey;
 	width: 100%;
 	h3 {
-		padding: $vertical-space 0;
 		color: $primary-navy;
 	}
 }
@@ -116,4 +115,9 @@ a.navbar-brand {
 	img {
 		width: 100%;
 	}
+}
+
+#about {
+	width: 100%;
+	background-color: $primary-navy;
 }
