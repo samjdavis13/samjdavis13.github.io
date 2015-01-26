@@ -3,10 +3,11 @@ layout: default
 title: Fake Job 1
 img: /img/pf1.png
 date: 2015-1-24
-modalId: 1
+modalId: 2
 projectDate: June 2014
 client: David Todd
-Brief: To create a company identity for the electrical company ‘Bingara Electrical’. The image was to be simple, clean & recognisable and include graphically, something of an electrical nature.
-Execution: In my final design of the branding I included an abstracted shape as the main logo graphic. It’s purpose was to indicate that the company was a clean, refined company. The ring shape was suggestive of a circuit, in which energy flows through (see varying colours in logo). For the typeface I chose one that would also be clean and refined. Beyond the basic image I wanted the graphic to help distinguish itself from other electrical companies, therefore I stayed away from clichéd imagery. What resulted was an innovative logo that was true to the company it represented.
+service: "Web Design"
+brief: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com-modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+execution: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com-modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ---
 

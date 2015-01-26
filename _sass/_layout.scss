@@ -29,6 +29,17 @@ h4 {
 	}
 }
 
+h5 {
+	color: $primary-navy;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+h6 {
+	color: $primary-navy;
+	font-size: 1.5em;
+}
+
 .header-navy {
 	color: $primary-navy;
 }
@@ -44,6 +55,7 @@ p {
 }
 
 .article-wrap {
+	width: 100%;
 	padding: $vertical-space 0;
 }
 
@@ -67,4 +79,83 @@ p {
 			color: white;
 		}
 	}
+}
+
+.modal .row {
+	//margin-bottom: $vertical-space/2;
+}
+
+.img-centered {
+	margin: 0 auto $vertical-space/2 auto;
+}
+
+.modal-content {
+	//width: 90%;
+	margin: 0 auto;
+	border-radius: 0;
+	border: 0;
+	.close-modal {
+		position: absolute;
+		z-index: 1050;
+
+		width: 50px;
+		height: 50px;
+
+		top: 18px;
+		right: 18px;
+		background: transparent;
+		cursor: pointer;
+		&:hover {
+			opacity: .3;
+		}
+		.lr {
+			margin-left: 25px;
+			z-index: 1051;
+			width: 1px;
+			height: 50px;
+			background-color: $primary-navy;
+
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+
+			.rl {
+				@extend .lr;
+				-webkit-transform: rotate(90deg);
+				-ms-transform: rotate(90deg);
+				transform: rotate(90deg);
+				margin-left: 0;
+			}
+		}
+	}
+	.modal-body {
+		width: 95%;
+		margin: 0 auto;
+		img {
+			width: 100%;
+		}
+		p {
+			color: $primary-navy;
+			@include media-query(767px) {
+				text-align: left;
+			}
+		}
+	}
+}
+
+.modal-content {
+
+}
+
+.modal-dialog {
+	width: 100%;
+	margin: 0;	
+}
+
+.text-small {
+	font-size: 1.2em;
+}
+
+.text-highlight {
+	color: $primary-red;
 }

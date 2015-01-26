@@ -1,0 +1,68 @@
+<!-- Portfolio Modals -->
+
+{% for post in site.posts %}
+
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modalId }}" aria-hidden="true" tabindex="-1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="close-modal hidden-xs" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="modal-body text-center">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h5 class="text-center">{{ post.title }}</h5>
+						<br>
+						<div class="row">
+							<div class="col-sm-12">
+								<img src="{{ post.img }}" class="portfolio-img img-centered">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<img src="{{ post.img2 }}" class="portfolio-img img-centered">
+							</div>
+							<div class="col-sm-6">
+								<img src="{{ post.img3 }}" class="portfolio-img img-centered">
+							</div>
+						</div>
+						<h6>BRIEF:</h6>
+						<p>{{ post.brief }}</p>
+						<br>
+						<h6>EXECUTION:</h6>
+						<p>{{ post.execution }}</p>
+						<br>
+
+						<div class="row">
+							<div class="col-sm-4">
+								<p class="text-small">Client: <span class="text-highlight">{{ post.client }}</span></p>
+							</div>
+							<div class="col-sm-4">
+								<p class="text-small">Date: <span class="text-highlight">{{ post.projectDate }}</span></p>
+							</div>
+							<div class="col-sm-4">
+								<p class="text-small">Service: <span class="text-highlight">{{ post.service }}</span></p>
+							</div>
+						</div>
+
+						
+
+						<br>
+						<button type="button" class="site-button" data-dismiss="modal"><i class="fa fa-times-circle"></i>&nbsp;&nbsp;Close</button>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endfor %}

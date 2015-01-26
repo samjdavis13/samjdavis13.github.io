@@ -8,7 +8,7 @@
 
 				{% for post in site.posts %}
 				<div class="col-sm-6 col-md-4 portfolio-item">
-					<a href="{{ post.url | prepend: site.baseurl }}">
+					<a href="#portfolioModal-{{ post.modalId }}" data-toggle="modal" data-keyboard="true">
 						<div class="caption">
 							<div class="caption-content">
 								<i class="fa fa-search fa-3x"></i>
