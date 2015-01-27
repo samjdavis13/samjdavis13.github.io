@@ -195,8 +195,18 @@ a.navbar-brand {
 
 	box-shadow: 0 2px 0 $primary-red-dark;
 
+	i.fa-times-circle {
+		transition: all ease .5s;
+	}
+
 	&:hover {
 		background-color: lighten($primary-red,2%); 
+
+		i.fa-times-circle {
+			-webkit-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			transform: rotate(90deg);
+		}
 	}
 
 	&:active {
