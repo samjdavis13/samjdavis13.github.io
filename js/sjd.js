@@ -1,11 +1,3 @@
-// Highlight nav links on scrollTop
-/*
-$('body').scrollspy({ 
-    target: '.navbar-fixed-top'
-    offset: 500
-});
-*/
-
 // Smooth Scrolling Navigation
 $(function() {
   $('.navbar-fixed-top a[href*=#]:not([href=#])').click(function() {
@@ -20,4 +12,9 @@ $(function() {
       }
     }
   });
+});
+
+// Close responsive menu on click 
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
 });
