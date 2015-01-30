@@ -1,3 +1,17 @@
+// Scroll watcher
+$(window).scroll(function() {
+  // Get current window position
+  height = $(window).scrollTop()
+  //console.log(height)
+
+  // add small class
+  if (height > 100) {
+    $('nav').addClass('scrolledNav')
+  } else {
+    $('nav').removeClass('scrolledNav')
+  }
+});
+
 // Smooth Scrolling Navigation
 $(function() {
   $('.navbar-fixed-top a[href*=#]:not([href=#])').click(function() {

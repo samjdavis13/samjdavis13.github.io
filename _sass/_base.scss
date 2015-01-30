@@ -17,6 +17,7 @@ dt[id]{
     margin-top: -100px;
 }
 
+/*
 .navbar-fixed-top {
 	height: 110px;
 	background-color: $primary-red;
@@ -46,7 +47,6 @@ a.navbar-brand {
 #main-nav {
 	height: 110px;
 	li {
-		//height: 110px;
 		padding-right: 10px;
 		padding-left: 10px;
 		a {
@@ -102,6 +102,38 @@ a.navbar-brand {
 	}
 }
 
+.scrolledNav {
+	height: auto;
+	.navbar-header {
+		height: auto;
+		padding: 0;
+		margin: 0;
+		.navbar-brand {
+			height: auto;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	#bs-example-navbar-collapse-1 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		ul {
+			height: auto;
+			margin: 0;
+			padding: 0;
+			li {
+				height: 82px;
+				margin: -13px -10px 0 0;
+				//margin-left: 10px;
+				padding: 0 0 0 30px;
+				line-height: 82px;
+			}
+		}
+	}
+}
+
+
 .navbar-collapse {
 	height: 230px;
 	max-height: 1000px;
@@ -125,6 +157,7 @@ a.navbar-brand {
 		border: 1px solid $primary-navy;
 	}
 }
+*/
 
 #hero {
 	background-color: $primary-navy;
