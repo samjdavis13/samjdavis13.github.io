@@ -2,11 +2,11 @@
   <div class="container">
   <h3 class="header-navy text-center">CONTACT ME</h3>
 
-    <form>
+    <form name='contact-form' action="http://sjd.site90.com" onsubmit="return validateForm()" method="POST">
 
       <div class="row">
         <div class="form-group col-sm-6 col-md-5 col-md-offset-1">
-          <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
+          <input name="name" type="text" class="form-control" id="form-name" placeholder="Name">
         </div>
       </div>
 
@@ -14,10 +14,10 @@
 
       <div class="row">
         <div class="form-group col-sm-6 col-md-5 col-md-offset-1">
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+          <input name="email" type="email" class="form-control" id="form-email" placeholder="Email Address">
         </div>
         <div class="form-group col-sm-6 col-md-5">
-          <input type="phone" class="form-control" id="exampleInputPhone1" placeholder="Phone Number">
+          <input name="number" type="phone" class="form-control" id="form-number" placeholder="Phone Number">
         </div>
       </div>
 
@@ -25,7 +25,7 @@
 
       <div class="row">
         <div class="form-group col-sm-12 col-md-10 col-md-offset-1">
-          <textarea class="form-control" rows="5" placeholder="Message" id="exampleInputMessage1"></textarea>
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" id="form-message"></textarea>
           <br><br>
           <button type="submit" class="btn btn-default" id="contactButtonSend">Send</button>
         </div>

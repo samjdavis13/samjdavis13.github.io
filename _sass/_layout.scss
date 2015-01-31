@@ -2,6 +2,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Avenir Next";
 	color: white;
 	font-weight: 700;
+
+	margin: 0 0 $vertical-space 0;
 }
 
 h2 {
@@ -13,7 +15,6 @@ h2 {
 
 h3 {
 	font-size: 2.25em;
-	//padding: $vertical-space 0;
 	margin-bottom: $vertical-space;
 	@include media-query(767px){
 		font-size: 1.75em;
@@ -101,8 +102,8 @@ p {
 		width: 50px;
 		height: 50px;
 
-		top: 18px;
-		right: 18px;
+		top: 37.5px;
+		right: 37.5px;
 		background: transparent;
 		cursor: pointer;
 		&:hover {
@@ -131,6 +132,7 @@ p {
 	.modal-body {
 		width: 95%;
 		margin: 0 auto;
+		padding-top: $vertical-space;
 		img {
 			width: 100%;
 		}
@@ -158,4 +160,15 @@ p {
 
 .text-highlight {
 	color: $primary-red;
+}
+
+#contact {
+	input.invalid, textarea.invalid {
+		background-color: rgba(red,.1);
+		border: 2px solid rgba(red,.5);
+	}
+	input.valid, textarea.valid {
+		background-color: rgba(green,.1);
+		border: 2px solid rgba(green,.5);
+	}
 }
