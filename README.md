@@ -1,4 +1,4 @@
-# SamJDavis
+# SJD.co
 Home for my personal [website][1]
 
 ### Todo:
@@ -6,6 +6,7 @@ Home for my personal [website][1]
 2. Actually implement contact form
 4. Add links to CSS
 5. Embed fonts as actual webfonts
+1. COMPLETELY CLEAN UP CSS - BIG JOB
 
 ### Done:
 

@@ -1,0 +1,59 @@
+#contact {
+	background-color: $background-grey;
+}
+
+#contact input, #contact textarea {
+	height: 50px;
+	font-size: 1.5em;
+	font-family: 'Avenir Next';
+	font-weight: 500;
+	
+	border: 0;
+}
+
+#contact textarea {
+	height: auto;
+	padding-top: 10px;
+}
+
+#contact input::-webkit-input-placeholder, #contact textarea::-webkit-input-placeholder {
+   color: darken(white,10%);
+}
+
+.site-button, #contactButtonSend {
+	background-color: $primary-red;
+	height: 50px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 0;
+
+	height: 50px;
+	font-size: 1.5em;
+	font-family: 'Avenir Next';
+	font-weight: 500;
+	color: white;
+
+	border-radius: 5px;
+
+	box-shadow: 0 2px 0 $primary-red-dark;
+
+	i.fa-times-circle {
+		transition: all ease .5s;
+	}
+
+	&:hover {
+		background-color: lighten($primary-red,2%); 
+
+		i.fa-times-circle {
+			-webkit-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			transform: rotate(90deg);
+		}
+	}
+
+	&:active {
+		box-shadow: inset 0 2px 1px $primary-red-dark;
+		margin-top: 2px;
+		margin-bottom: -2px;
+	}
+}

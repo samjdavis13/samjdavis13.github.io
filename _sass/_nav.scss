@@ -1,0 +1,98 @@
+// BASE NAV
+nav.navbar-default {
+	font-family: 'Avenir Next';
+	background-color: $primary-red;
+	border: 0;
+	.container {
+		/* LEFT SIDE */
+		.navbar-header {
+			a {
+				width: auto;
+				height: auto;
+				padding: $nav-height / 2 - 10 $nav-height / 3 - 10;
+
+				//transition: all ease .2s;
+			}
+			#site-h1 {
+				font-size: 4em;
+				font-weight: 700;
+				color: $primary-navy;
+			}
+			#navbutton {
+				width: auto;
+				height: auto;
+				margin: $nav-height / 2 - 18 $nav-height / 3 - 10;
+
+				//background-color: green;
+				border: 2px solid $primary-navy;
+				&:hover {
+					background-color: lighten($primary-red,10%);
+				}
+				span {
+					background-color: $primary-navy;
+				}
+			}
+		}
+
+		/* RIGHT SIDE */
+		.navbar-collapse {
+			#main-nav {
+				li {
+					a {
+						width: auto;
+						height: auto;
+						padding: $nav-height / 2 - 10 $nav-height / 3 - 10;
+
+						font-size: 1.5em;
+						font-weight: 400;
+						text-transform: uppercase;
+						color: $primary-navy;
+
+						//transition: all ease .2s;
+						@include media-query(767px) {
+							padding-top: $small-nav-height / 2 - 10;
+							padding-bottom: $small-nav-height / 2 - 10;
+						}
+					}
+				}
+				li.active {
+					a {
+						background-color: lighten($primary-red,10%);
+					}
+				}
+			}
+		}
+	}
+}
+
+// SCROLLED NAV
+nav.scrolled-nav {
+	.container {
+		/* LEFT SIDE */
+		.navbar-header {
+			a {
+				padding-top: $small-nav-height / 2 - 10;
+				padding-bottom: $small-nav-height / 2 - 10;
+			}
+			#site-h1 {
+				font-size: 3em;
+			}
+			#navbutton {
+				margin-top: $small-nav-height / 2 - 18;
+				margin-bottom: $small-nav-height / 2 - 18;
+			}
+		}
+
+		/* RIGHT SIDE */
+		.navbar-collapse {
+			#main-nav {
+				li {
+					a {
+						padding-top: $small-nav-height / 2 - 10;
+						padding-bottom: $small-nav-height / 2 - 10;
+					}
+				}
+			}
+		}
+	}
+}
