@@ -5,10 +5,10 @@ $(window).scroll(function() {
   //console.log(height)
 
   // add small class
-  if (height > 100) {
-    $('nav').addClass('scrolledNav')
+  if (height > 110) {
+    $('nav').addClass('scrolled-nav')
   } else {
-    $('nav').removeClass('scrolledNav')
+    $('nav').removeClass('scrolled-nav')
   }
 });
 
@@ -20,7 +20,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top - 100
+          scrollTop: target.offset().top - 70
         }, 400);
         return false;
       }
