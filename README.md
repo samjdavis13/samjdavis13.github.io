@@ -3,8 +3,8 @@ Home for my personal [website][1]
 
 ### Todo:
 
-5. Embed fonts as actual webfonts
 1. COMPLETELY CLEAN UP CSS - BIG JOB
+2. Add in real, final content.
 
 ### Done:
 
@@ -16,6 +16,7 @@ Home for my personal [website][1]
 3. Make navbar smaller on scroll
 2. Actually implement contact form - THIS WAS A PAIN IN THE ASS (THANKS JEKYLL)
 4. Add links to CSS
+5. Embed fonts as actual webfonts
 
 [1]:	http://sjd.co/	
 
