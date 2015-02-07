@@ -11,7 +11,7 @@ nav.navbar-default {
 				height: auto;
 				padding: $nav-height / 2 - 10 $nav-height / 3 - 10;
 
-				//transition: all ease .2s;
+				transition: all ease .2s;
 			}
 			#site-h1 {
 				font-size: 4em;
@@ -19,6 +19,7 @@ nav.navbar-default {
 				color: $primary-navy;
 			}
 			#navbutton {
+				transition: all ease .2s;
 				width: auto;
 				height: auto;
 				margin: $nav-height / 2 - 18 $nav-height / 3 - 10;
@@ -48,7 +49,7 @@ nav.navbar-default {
 						text-transform: uppercase;
 						color: $primary-navy;
 
-						//transition: all ease .2s;
+						transition: all ease .2s;
 						@include media-query(767px) {
 							padding-top: $small-nav-height / 2 - 10;
 							padding-bottom: $small-nav-height / 2 - 10;
