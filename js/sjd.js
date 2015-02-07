@@ -21,6 +21,7 @@ $(window).scroll(function() {
 // NAV LINKS
 $(function() {
   $('.navbar-right a[href*=#]:not([href=#])').click(function() {
+    $('.navbar-toggle:visible').click();
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -37,6 +38,7 @@ $(function() {
 // LOGO LINK
 $(function() {
   $('.navbar-header a[href*=#]:not([href=#])').click(function() {
+    $('.navbar-toggle:visible').click();
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -55,7 +57,7 @@ $(function() {
 ----------- NAV CLOSER -----------
 ================================*/
 $('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+    
 });
 
 
