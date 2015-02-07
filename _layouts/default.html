@@ -3,18 +3,18 @@
   {% include head.html %}
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="70">
 
+    <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/sjd.js" | prepend: site.baseurl }}"></script>
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
     {% include header.html %}
     {% include portfolio.html %}
     {% include about.html %}
     {% include contact.html %}
     {% include footer.html %}
     {% include modals.html %}
-
-    <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
-    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/sjd.js" | prepend: site.baseurl }}"></script>
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
   </body>
 </html>
