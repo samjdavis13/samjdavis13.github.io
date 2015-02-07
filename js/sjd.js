@@ -18,14 +18,31 @@ $(window).scroll(function() {
 /*=================================
 -------- SMOOTH SCROLL NAV --------
 =================================*/
+// NAV LINKS
 $(function() {
-  $('.navbar-fixed-top a[href*=#]:not([href=#])').click(function() {
+  $('.navbar-right a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top - 70
+          scrollTop: target.offset().top - 69
+        }, 400);
+        return false;
+      }
+    }
+  });
+});
+
+// LOGO LINK
+$(function() {
+  $('.navbar-header a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - 200
         }, 400);
         return false;
       }
