@@ -10,9 +10,6 @@ h2 {
 	font-size: 3em;
 	padding-top: $vertical-space/2;
 	margin-bottom: $vertical-space/3;
-	@include media-query(767px){
-		font-size: 2em;
-	}
 }
 
 #hero-section {
@@ -52,13 +49,13 @@ h5 {
 }
 
 h6 {
-	margin-top: $vertical-space/2;
+	margin: $vertical-space/2 0;
 	color: $primary-navy;
 	font-size: 1.5em;
 }
 
 h6.subtitle {
-	margin-top: -10px;
+	margin-top: -30px;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-style: italic;
@@ -76,6 +73,13 @@ p {
 	font-family: 'Avenir Next';
 	font-size: 1.5em;
 	color: white;
+}
+
+a {
+	color: $primary-red;
+	&:hover {
+		color: $primary-red-dark;
+	}
 }
 
 .article-wrap {

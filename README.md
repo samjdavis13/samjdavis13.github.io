@@ -3,7 +3,6 @@ Home for my personal [website][1]
 
 ### Todo:
 
-4. Add links to CSS
 5. Embed fonts as actual webfonts
 1. COMPLETELY CLEAN UP CSS - BIG JOB
 
@@ -16,6 +15,7 @@ Home for my personal [website][1]
 6. Close mobile-nav on click
 3. Make navbar smaller on scroll
 2. Actually implement contact form - THIS WAS A PAIN IN THE ASS (THANKS JEKYLL)
+4. Add links to CSS
 
 [1]:	http://sjd.co/	
 
