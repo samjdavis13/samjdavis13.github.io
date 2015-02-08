@@ -65,6 +65,7 @@ a.symbol:before {
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+    "sjdhelpers",
 	"general",
 	"nav",
 	"hero",
