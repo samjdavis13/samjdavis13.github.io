@@ -120,7 +120,7 @@ a {
 .modal-content {
 	//width: 90%;
 	margin: 0 auto;
-	border-radius: 0;
+	@include sjd-border-radius(0);
 	border: 0;
 	.close-modal {
 		position: absolute;
