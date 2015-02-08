@@ -5,7 +5,7 @@ Home for my personal [website][1]
 
 1. COMPLETELY CLEAN UP CSS - BIG JOB
 2. Add in real, final content.
-3. Add in CSS support for lists (ul and ol)
+3. Add ability to link to modals externally
 
 ### Done:
 
@@ -18,6 +18,7 @@ Home for my personal [website][1]
 2. Actually implement contact form - THIS WAS A PAIN IN THE ASS (THANKS JEKYLL)
 4. Add links to CSS
 5. Embed fonts as actual webfonts
+3. Add in CSS support for lists (ul and ol)
 
 [1]:	http://sjd.co/	
 
