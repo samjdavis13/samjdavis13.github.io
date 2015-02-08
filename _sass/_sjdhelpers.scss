@@ -20,3 +20,17 @@
 .sjd-img-responsive {
 	max-width: 100% !important;
 }
+
+// MIXINS
+@mixin sjd-box-shadow($properties) {
+	-webkit-box-shadow: $properties;
+	   -moz-box-shadow: $properties;
+	    -ms-box-shadow: $properties;
+	        box-shadow: $properties;
+}
+@mixin sjd-border-radius($properties) {
+	-webkit-border-radius: $properties;
+	   -moz-border-radius: $properties;
+	    -ms-border-radius: $properties;
+	        border-radius: $properties;
+}
