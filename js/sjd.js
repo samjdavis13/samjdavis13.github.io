@@ -9,11 +9,35 @@ $(window).scroll(function() {
   // add small class
   if (height > 110) {
     $('nav').addClass('scrolled-nav')
+  } else if (height == 0) {
+    window.location.hash = ""
   } else {
     $('nav').removeClass('scrolled-nav')
   }
 });
 
+/*=================================
+------ WATCH FOR MODAL LINKS ------
+=================================*/
+$(document).ready(function() {
+  if (window.location.hash != "") {
+    for (x = 1; x <= 100; x++) {
+      windowhash = window.location.hash.toLowerCase();
+      possibleModal = "#portfoliomodal-".concat(x)
+      if (windowhash == possibleModal) {
+        $(possibleModal).modal('show');
+      }
+    }
+  }
+});
+
+$(window).on('shown.bs.modal', function(){
+    currentModal = $('.in');
+    window.location.hash = currentModal.attr('id');
+});
+$(window).on('hide.bs.modal', function(){
+    //window.location.hash = ""
+});
 
 /*=================================
 -------- SMOOTH SCROLL NAV --------
@@ -38,7 +62,6 @@ $(function() {
 // LOGO LINK
 $(function() {
   $('.navbar-header a[href*=#]:not([href=#])').click(function() {
-    $('.navbar-toggle:visible').click();
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -56,9 +79,6 @@ $(function() {
 /*================================
 ----------- NAV CLOSER -----------
 ================================*/
-$('.navbar-collapse ul li a').click(function() {
-    
-});
 
 
 /*=================================
