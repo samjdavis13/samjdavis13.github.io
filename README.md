@@ -5,6 +5,7 @@ Home for my personal [website][1]
 
 1. COMPLETELY CLEAN UP CSS - BIG JOB
 2. Add in real, final content.
+3. Form live checking needs fixing!!!
 
 ### Done:
 
