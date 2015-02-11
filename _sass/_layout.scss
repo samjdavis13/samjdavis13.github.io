@@ -234,3 +234,17 @@ h6.subtitle {
 	font-weight: 400;
 	font-style: italic;
 }
+
+.progress {
+	$progress-bar-height: 40px;
+	background-color: $primary-navy-dark;
+	height: $progress-bar-height;
+	.progress-bar {
+		background-color: $primary-red;
+		line-height: $progress-bar-height;
+		font-size: 1.2em;
+		font-family: $font-stack;
+		font-weight: 600;
+		color: $primary-navy;
+	}
+}
