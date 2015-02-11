@@ -10,6 +10,7 @@ $(window).scroll(function() {
   if (height > 110) {
     $('nav').addClass('scrolled-nav')
   } else if (height == 0) {
+    // Removes any hashes when top or window is reached.
     window.location.hash = ""
   } else {
     $('nav').removeClass('scrolled-nav')
@@ -19,6 +20,7 @@ $(window).scroll(function() {
 /*=================================
 ------ WATCH FOR MODAL LINKS ------
 =================================*/
+// Loads the correct modal based on hash links
 $(document).ready(function() {
   if (window.location.hash != "") {
     for (x = 1; x <= 100; x++) {
@@ -31,12 +33,10 @@ $(document).ready(function() {
   }
 });
 
+// Changes url.hash to be #modalId-x when a modal is opened.
 $(window).on('shown.bs.modal', function(){
     currentModal = $('.in');
     window.location.hash = currentModal.attr('id');
-});
-$(window).on('hide.bs.modal', function(){
-    //window.location.hash = ""
 });
 
 /*=================================
@@ -76,11 +76,6 @@ $(function() {
 });
 
 
-/*================================
------------ NAV CLOSER -----------
-================================*/
-
-
 /*=================================
 ---------- FORM VALIDATOR ---------
 =================================*/
@@ -93,6 +88,9 @@ function validateForm() {
   // Check name
   if (name == null || name == "") {
     alert("Error: Name must be provided.")
+    return false;
+  } else if (name.length < 2) {
+    alert("Error: Name must be at least 2 characters long.")
     return false;
   }
 
@@ -122,7 +120,7 @@ function validateForm() {
 -------- LIVE FORM CHECKERS -------
 =================================*/
 // CHECK NAME
-$("#form-name").on("input", null, null, function() {
+$("#form-name").on("input", function() {
   value = this.value
   //console.log(this.value)
   if (value.length == 0) {
