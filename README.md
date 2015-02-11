@@ -5,7 +5,6 @@ Home for my personal [website][1]
 
 1. COMPLETELY CLEAN UP CSS - BIG JOB
 2. Add in real, final content.
-3. Form live checking needs fixing!!!
 
 ### Done:
 
@@ -20,6 +19,7 @@ Home for my personal [website][1]
 5. Embed fonts as actual webfonts
 3. Add in CSS support for lists (ul and ol)
 3. Add ability to link to modals externally
+3. Form live checking needs fixing!!!
 
 [1]:	http://sjd.co/	
 
