@@ -5,6 +5,7 @@ Home for my personal [website][1]
 
 1. COMPLETELY CLEAN UP CSS - BIG JOB
 2. Add in real, final content.
+3. Add job breakdown of tools used to each job.
 
 ### Done:
 
@@ -20,6 +21,7 @@ Home for my personal [website][1]
 3. Add in CSS support for lists (ul and ol)
 3. Add ability to link to modals externally
 3. Form live checking needs fixing!!!
+3. Add application/language experience to about secttion
 
 [1]:	http://sjd.co/	
 
