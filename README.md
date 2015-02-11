@@ -6,6 +6,7 @@ Home for my personal [website][1]
 1. COMPLETELY CLEAN UP CSS - BIG JOB
 2. Add in real, final content.
 3. Add job breakdown of tools used to each job.
+4. Add Git/Github as a language experience field
 
 ### Done:
 
