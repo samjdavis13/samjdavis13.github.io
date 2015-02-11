@@ -115,12 +115,11 @@ function validateForm() {
   }
 }
 
-
 /*=================================
 -------- LIVE FORM CHECKERS -------
 =================================*/
 // CHECK NAME
-$("#form-name").on("input", function() {
+$('#form-name').on("input", function() {
   value = this.value
   //console.log(this.value)
   if (value.length == 0) {
@@ -182,4 +181,3 @@ $("#form-message").on("input", null, null, function() {
     $('#form-message').addClass("valid");
   }  
 });
-
