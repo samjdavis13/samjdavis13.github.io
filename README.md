@@ -5,6 +5,10 @@ Home for my personal [website][1]
 
 1. COMPLETELY CLEAN UP CSS - BIG JOB
 2. Add in real, final content.
+3. Make nicer social icons
+4. Experiment with colouring backgrounds of sections in modals.
+5. Experiment with a smaller scrolled nav
+6. Alter the contact.php app to redirect where it came from rather than to a static link to [sjd.co][1]
 
 ### Todo upon live:
 1. Setup Google Analytics Tracking
