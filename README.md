@@ -6,6 +6,9 @@ Home for my personal [website][1]
 1. COMPLETELY CLEAN UP CSS - BIG JOB
 2. Add in real, final content.
 
+### Todo upon live:
+1. Setup Google Analytics Tracking
+
 ### Done:
 
 1. Hover on portfolio items 
