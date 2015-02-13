@@ -5,7 +5,7 @@ img: /img/drumtutor1.jpg
 img2: /img/drumtutor2.jpg
 date: 2014-2-7
 modalId: 5
-projectDate: May 2012
+projectDate: May 2013
 client: University
 service: "App Development"
 
