@@ -59,7 +59,6 @@ languages:
  objectiveC:
   name: 'Objective-C'
   skill: 50
-  icon: [ ]
  php:
   name: 'PHP'
   skill: 40
