@@ -11,20 +11,56 @@ instagram: samjdavis
 # Build settings
 markdown: kramdown
 
+apps:
+ illustrator:
+  name: 'Illustrator'
+  skill: 100
+  icon: <i class="fa fa-pencil"></i>
+ indesign:
+  name: 'InDesign'
+  skill: 90
+  icon: <i class="fa fa-book"></i>
+ photoshop:
+  name: 'Photoshop'
+  skill: 80
+  icon: <i class="fa fa-camera"></i>
+ lightroom:
+  name: 'Lightroom'
+  skill: 80
+  icon: <i class="fa fa-lightbulb"></i>
+ finalcut:
+  name: 'Final Cut Pro X'
+  skill: 50
+  icon: <i class="fa fa-video-camera"></i>
+ aftereffects:
+  name: 'After Effects'
+  skill: 40
+  icon: <i class="fa fa-magic"></i>
 
-# Application Experience:
-illustrator: 100
-indesign: 90
-photoshop: 80
-lightroom: 80
-finalCut: 50
-afterEffects: 40
+languages:
+ html:
+  name: 'HTML'
+  skill: 100
+ css:
+  name: 'CSS'
+  skill: 90
+ javascript:
+  name: 'Javascript'
+  skill: 70
+ git:
+  name: 'Git/Github'
+  skill: 70
+ sql:
+  name: 'SQL'
+  skill: 60
+ python:
+  name: 'Python'
+  skill: 50
+ objectiveC:
+  name: 'Objective-C'
+  skill: 50
+  icon: [ ]
+ php:
+  name: 'PHP'
+  skill: 40
 
-# Language Experience:
-html: 100
-css: 90
-javascript: 70
-python: 50
-objectiveC: 50
-sql: 60
-php: 40

@@ -17,104 +17,93 @@
 				</div>
 				<br><br>
 				<div class="row"><div class="col-sm-12 sjd-text-center"><h6 class="sjd-text-white sjd-text-uppercase">Application Experience</h6></div></div>
+
 				<div class="row">
+
+					{% for app in site.apps %}
 					<div class="col-sm-6">
 						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.illustrator }}%">
-						    <i class="fa fa-pencil"></i>&nbsp;&nbsp;Illustrator / Sketch
+						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ app[1]['skill'] }}%">
+						    {{ app[1]['icon'] }}&nbsp;&nbsp;{{ app[1]['name'] }}
 						  </div>
 						</div>
 					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.indesign }}%">
-						    <i class="fa fa-book"></i>&nbsp;&nbsp;InDesign
-						  </div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.photoshop }}%">
-						    <i class="fa fa-camera"></i>&nbsp;&nbsp;Photoshop
-						  </div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.lightroom }}%">
-						    <i class="fa fa-lightbulb-o"></i>&nbsp;&nbsp;Lightroom
-						  </div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.finalCut }}%">
-						    <i class="fa fa-video-camera"></i>&nbsp;&nbsp;Final Cut Pro X
-						  </div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.afterEffects }}%">
-						    <i class="fa fa-magic"></i>&nbsp;&nbsp;After Effects
-						  </div>
-						</div>
-					</div>
+					{% endfor %}
+
 				</div>
 
 				<br>
+
+				<div class="row"><div class="col-sm-12 sjd-text-center"><h6 class="sjd-text-white sjd-text-uppercase">Language/Platform Experience</h6></div></div>
+				<div class="row">
+
+					{% for language in site.languages %}
+					<div class="col-sm-6">
+						<div class="progress">
+						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ language[1]['skill'] }}%">
+						    {{ language[1]['name'] }}
+						  </div>
+						</div>
+					</div>
+					{% endfor %}
+
+				</div>
+
+
+				<!--
 				<div class="row"><div class="col-sm-12 sjd-text-center"><h6 class="sjd-text-white sjd-text-uppercase">Language Experience</h6></div></div>
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="progress">
 						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.html }}%">
-						    &lt;/&gt;&nbsp;&nbsp;HTML5
+						    &nbsp;&nbsp;HTML5
 						  </div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="progress">
 						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.css }}%">
-						    { }&nbsp;&nbsp;CSS3
+						    &nbsp;&nbsp;CSS3
 						  </div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="progress">
 						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.javascript }}%">
-						    ({})&nbsp;&nbsp;JavaScript
+						    &nbsp;&nbsp;JavaScript
 						  </div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="progress">
 						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.sql }}%">
-						    <i class="fa fa-table"></i>&nbsp;&nbsp;SQL
+						    &nbsp;&nbsp;SQL
 						  </div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="progress">
 						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.objectiveC }}%">
-						    [ ]&nbsp;&nbsp;Objective-C
+						    &nbsp;&nbsp;Objective-C
 						  </div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="progress">
 						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.python }}%">
-						    &gt;&nbsp;&nbsp;Python
+						    &nbsp;&nbsp;Python
 						  </div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="progress">
 						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.php }}%">
-						    &lt;?&gt;&nbsp;&nbsp;PHP
+						    &nbsp;&nbsp;PHP
 						  </div>
 						</div>
 					</div>
 				</div>
+				-->
 			</div>
 		</div>
 	</div>
