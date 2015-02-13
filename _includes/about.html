@@ -7,17 +7,18 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-lg-10 col-lg-offset-1">
+
 				<div class="row">
 					<div class="col-sm-6">
 						<p>My name is Samuel James Davis [see: Sam], I’m a design student at the University of Western Sydney, Penrith. My passions lie within the field of web design & development (or any sort of interaction design), though I’m happy doing just about any sort of design.</p>
 					</div>
-					<div class="col-sm-6 col-md-5">
+					<div class="col-sm-6">
 						<p>On top of my design background I also love software development, which I am steadily, yet slowly learning. And whilst I currently haven’t made anything of note or significance yet, things are definitely churning in the background for me to do just that.</p>
 					</div>
 				</div>
 				<br><br>
-				<div class="row"><div class="col-sm-12 sjd-text-center"><h6 class="sjd-text-white sjd-text-uppercase">Application Experience</h6></div></div>
 
+				<div class="row"><div class="col-sm-12 sjd-text-center"><h6 class="sjd-text-white sjd-text-uppercase">Application Experience</h6></div></div>
 				<div class="row">
 
 					{% for app in site.apps %}
@@ -36,7 +37,6 @@
 
 				<div class="row"><div class="col-sm-12 sjd-text-center"><h6 class="sjd-text-white sjd-text-uppercase">Language/Platform Experience</h6></div></div>
 				<div class="row">
-
 					{% for language in site.languages %}
 					<div class="col-sm-6">
 						<div class="progress">
@@ -46,64 +46,8 @@
 						</div>
 					</div>
 					{% endfor %}
-
 				</div>
 
-
-				<!--
-				<div class="row"><div class="col-sm-12 sjd-text-center"><h6 class="sjd-text-white sjd-text-uppercase">Language Experience</h6></div></div>
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.html }}%">
-						    &nbsp;&nbsp;HTML5
-						  </div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.css }}%">
-						    &nbsp;&nbsp;CSS3
-						  </div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.javascript }}%">
-						    &nbsp;&nbsp;JavaScript
-						  </div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.sql }}%">
-						    &nbsp;&nbsp;SQL
-						  </div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.objectiveC }}%">
-						    &nbsp;&nbsp;Objective-C
-						  </div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.python }}%">
-						    &nbsp;&nbsp;Python
-						  </div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: {{ site.php }}%">
-						    &nbsp;&nbsp;PHP
-						  </div>
-						</div>
-					</div>
-				</div>
-				-->
 			</div>
 		</div>
 	</div>
