@@ -34,7 +34,6 @@
 							</div>
 							{% endif %}
 
-						</div>
 
 						<!-- If there's no img3 make img2 full width -->
 						{% if post.img3 == null %}
@@ -59,6 +58,37 @@
 							</div>
 							{% endif %}
 						{% endif %}
+
+						</div>
+
+
+						{% if post.tools.size > 0 %}
+							<h6 class="sjd-text-uppercase sjd-text-center sjd-text-italic">Tools Used</h6>
+							<div class="progress">
+								{% for i in post.tools %}
+									{% assign isOdd = forloop.index0 | modulo:2 %}
+									<div class="progress-bar progress-bar-striped active {% if isOdd == 1 %}progress-bar-blue{% endif %}" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{ post.values[forloop.index0] }}%;">
+										{{ post.tools[forloop.index0] }}
+									</div>
+								{% endfor %}
+							</div>
+							<br>
+						{% endif %}
+
+						{% if post.code.size > 0 %}
+							<h6 class="sjd-text-uppercase sjd-text-center sjd-text-italic">Languages Used</h6>
+							<div class="progress">
+								{% for i in post.code %}
+									{% assign isOdd = forloop.index0 | modulo:2 %}
+									<div class="progress-bar progress-bar-striped active {% if isOdd == 1 %}progress-bar-blue{% endif %}" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{ post.codeValue[forloop.index0] }}%;">
+										{{ post.code[forloop.index0] }}
+									</div>
+								{% endfor %}
+							</div>
+							<br>
+						{% endif %}
+
+
 
 						<h6>BRIEF:</h6>
 						<p>{{ post.brief }}</p>
