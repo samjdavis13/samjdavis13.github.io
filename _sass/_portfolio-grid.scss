@@ -5,18 +5,26 @@
 		color: $primary-navy;
 	}
 	img {
+		z-index: 0;
 		width: 100%;
 	}
 }
 
 .portfolio-item {
 	margin-bottom: $vertical-space/2;
+	&:hover {
+		img {
+			-webkit-filter: blur(5px);
+			filter: blur(5px);
+		}
+	}
 }
 
 .caption {
+	z-index: 1000;
 	position: absolute;
 
-	background-color: rgba($primary-red,.5);
+	background-color: rgba($primary-red,.6);
 
 	overflow: hidden;
 
@@ -36,7 +44,7 @@
 	}
 
 	.caption-description {
-		background-color: rgba($primary-navy,.8);
+		background-color: rgba($primary-navy,.9);
 		position: absolute;
 		bottom: -25px;
 		transition: all ease .2s;
