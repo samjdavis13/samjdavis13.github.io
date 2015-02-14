@@ -8,14 +8,6 @@ Home for my personal [website][1]
 2. Add in real, final content.
 1. Setup Google Analytics Tracking
 
-#### v0.12
-3. <span style="text-decoration: line-through;">Make nicer social icons</span>
-4. <span style="text-decoration: line-through;">Experiment with colouring backgrounds of sections in modals.</span>
-5. <span style="text-decoration: line-through;">Experiment with a smaller scrolled nav</span>
-7. <span style="text-decoration: line-through;">Try putting top-margins on active nav items</span>
-6. <span style="text-decoration: line-through;">Alter the contact.php app to redirect where it came from rather than to a static link to [sjd.co][1] </span>
-
-
 ### Done:
 
 1. Hover on portfolio items 
@@ -34,11 +26,18 @@ Home for my personal [website][1]
 3. Add job breakdown of tools used to each job.
 4. Add Git/Github as a language experience field
 
+#### v0.12
+3. Make nicer social icons
+4. Experiment with colouring backgrounds of sections in modals.
+5. Experiment with a smaller scrolled nav
+7. Try putting top-margins on active nav items
+6. Alter the contact.php app to redirect where it came from rather than to a static link to [sjd.co][1] 
+
 [1]:	http://sjd.co/	
 
 <!--
 Code for strikethrough...
 
-<span style="text-decoration: line-through;">
-</span>
+
+
 -->
