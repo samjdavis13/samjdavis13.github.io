@@ -8,6 +8,9 @@ Home for my personal [website][1]
 2. Add in real, final content.
 1. Setup Google Analytics Tracking
 
+#### v0.12.1
+1. Change hash links to 'portfolio-x' instead of 'portfoliomodal-x's
+
 ### Done:
 
 1. Hover on portfolio items 
