@@ -12,8 +12,8 @@ $background-grey:	darken(white,10%);
 
 $vertical-space: 50px;
 
-$nav-height: 110px;
-$small-nav-height: 70px;
+$nav-height: 90px;
+$small-nav-height: 60px; // Also needs updating in sjd.js and default.html (data-offset attr)
 
 $font-stack: "Avenir Next", "Avenir", "Open Sans", "Verdana", "Helvetica", "arial", sans-serif;
 
@@ -74,5 +74,6 @@ a.symbol:before {
 	"about",
 	"contact",
 	"footer",
+    "modals",
     "layout"
 ;

@@ -1,0 +1,117 @@
+.modal-dialog {
+	width: 100%;
+	margin: 0;	
+}
+
+.modal-content {
+	//width: 90%;
+	margin: 0 auto;
+	@include sjd-border-radius(0);
+	border: 0;
+
+	p {
+		margin-bottom: $vertical-space;
+	}
+
+	.close-modal {
+		position: absolute;
+		z-index: 1050;
+
+		width: 50px;
+		height: 50px;
+
+		top: 37.5px;
+		right: 37.5px;
+		background: transparent;
+		cursor: pointer;
+		&:hover {
+			opacity: .3;
+		}
+		.lr {
+			margin-left: 25px;
+			z-index: 1051;
+			width: 1px;
+			height: 50px;
+			background-color: $primary-navy;
+
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+
+			.rl {
+				@extend .lr;
+				-webkit-transform: rotate(90deg);
+				-ms-transform: rotate(90deg);
+				transform: rotate(90deg);
+				margin-left: 0;
+			}
+		}
+	}
+
+	.modal-body {
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		//padding-top: $vertical-space;
+		p,h6 {
+			text-align: left;
+		}
+		img {
+			width: 100%;
+		}
+		p {
+			color: $primary-navy;
+			@include media-query(767px) {
+				text-align: left;
+			}
+		}
+		ol, ul {
+			li {
+				font-size: 1.5em;
+			}
+		}
+
+		.modal-section {
+			width: 100%;
+			margin: 0;
+			padding: $vertical-space 0;
+		}
+
+		.portfolio-header {
+			background-color: $primary-red;
+			padding: 0;
+
+			h5,h6 {
+				margin: $vertical-space/2;
+			}
+			h5 {
+				margin-bottom: $vertical-space/6;
+			}
+			h6 {
+				margin-top: $vertical-space/6;
+			}
+		}
+		.portfolio-showcase {
+			.video-row {
+				
+			}
+		}
+
+		.portfolio-breakdown {
+			background-color: $background-grey;
+		}
+
+		.portfolio-detail {
+			background-color: $primary-navy;
+			p,h5,h6,ol li ,ul li {
+				color: white;
+			}
+		}
+
+		.container {
+			//width: 100%;
+			//margin: 0;
+			//padding: 0;
+		}
+	}
+}

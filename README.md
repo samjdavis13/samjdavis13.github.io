@@ -8,20 +8,12 @@ Home for my personal [website][1]
 2. Add in real, final content.
 1. Setup Google Analytics Tracking
 
-#### v0.12
-3. Make nicer social icons
-4. Experiment with colouring backgrounds of sections in modals.
-5. Experiment with a smaller scrolled nav
-6. Alter the contact.php app to redirect where it came from rather than to a static link to [sjd.co][1]
-7. Try putting top-margins on active nav items
-
-
 ### Done:
 
 1. Hover on portfolio items 
 2. Modals for portofolio items
-1. Implement smooth scrolling nav links</span>
-6. <span style="text-decoration: line-through;">Make about me section have narrower columns? (experiment)</span> - DIDN'T LIKE!
+1. Implement smooth scrolling nav links
+6. Make about me section have narrower columns? (experiment) - DIDN'T LIKE!
 6. Close mobile-nav on click
 3. Make navbar smaller on scroll
 2. Actually implement contact form - THIS WAS A PAIN IN THE ASS (THANKS JEKYLL)
@@ -34,11 +26,18 @@ Home for my personal [website][1]
 3. Add job breakdown of tools used to each job.
 4. Add Git/Github as a language experience field
 
+#### v0.12
+3. Make nicer social icons
+4. Experiment with colouring backgrounds of sections in modals.
+5. Experiment with a smaller scrolled nav
+7. Try putting top-margins on active nav items
+6. Alter the contact.php app to redirect where it came from rather than to a static link to [sjd.co][1] 
+
 [1]:	http://sjd.co/	
 
 <!--
 Code for strikethrough...
 
-<span style="text-decoration: line-through;">
-</span>
+
+
 -->

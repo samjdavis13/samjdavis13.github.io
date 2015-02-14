@@ -51,7 +51,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top - 69
+          scrollTop: target.offset().top - 59 // $small-nav-height -1
         }, 400);
         return false;
       }
