@@ -49,9 +49,10 @@
 	}
 
 	.modal-body {
-		width: 95%;
-		margin: 0 auto;
-		padding-top: $vertical-space;
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		//padding-top: $vertical-space;
 		p,h6 {
 			text-align: left;
 		}
@@ -68,6 +69,49 @@
 			li {
 				font-size: 1.5em;
 			}
+		}
+
+		.modal-section {
+			width: 100%;
+			margin: 0;
+			padding: $vertical-space 0;
+		}
+
+		.portfolio-header {
+			background-color: $primary-red;
+			padding: 0;
+
+			h5,h6 {
+				margin: $vertical-space/2;
+			}
+			h5 {
+				margin-bottom: $vertical-space/6;
+			}
+			h6 {
+				margin-top: $vertical-space/6;
+			}
+		}
+		.portfolio-showcase {
+			.video-row {
+				
+			}
+		}
+
+		.portfolio-breakdown {
+			background-color: $background-grey;
+		}
+
+		.portfolio-detail {
+			background-color: $primary-navy;
+			p,h5,h6,ol li ,ul li {
+				color: white;
+			}
+		}
+
+		.container {
+			//width: 100%;
+			//margin: 0;
+			//padding: 0;
 		}
 	}
 }
