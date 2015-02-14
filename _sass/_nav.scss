@@ -55,10 +55,32 @@ nav.navbar-default {
 							padding-bottom: $small-nav-height / 2 - 10;
 						}
 					}
+					a::after {
+						content: " ";
+						position: absolute;
+						z-index: 1000;
+						left: 0px;
+						right: 0px;
+						top: -5px;
+
+						//width: 100%;
+						height: 5px;
+						background-color: $primary-navy;
+
+						transition: all ease .2s;
+						@include media-query(767px) {
+							height: 0;
+						}
+					}
 				}
 				li.active {
 					a {
 						background-color: lighten($primary-red,10%);
+					}
+				}
+				li:hover {
+					a::after {
+						top: 0;
 					}
 				}
 			}
