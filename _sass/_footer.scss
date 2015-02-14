@@ -1,15 +1,45 @@
 #footer {
+	z-index: 100;
+	position: relative;
+	padding: $vertical-space/1.5;
 	background-color: $primary-red;
+	svg {
+		$svg-width: 75px;
+		position: relative;
+		margin-left: -($svg-width / 2);
+		left: 50%;
+		width: $svg-width;
+	}
+	@include sjd-box-shadow(0 1px 7px 0 rgba(black,.1))
+}
+
+.svg-icon {
+	padding: 0;
+	margin: 0;
+	path,circle {
+		-webkit-transition: fill ease .2s;
+		-moz-transition: fill ease .2s;
+		-ms-transition: fill ease .2s;
+		transition: fill ease .2s;
+
+		fill: $primary-red-dark !important;
+	}
+	&:hover {
+		path,circle {
+			fill: $primary-navy !important;		
+		}
+	}
 }
 
 #very-footer {
-	height: 40px;
-	line-height: 40px;
+	$very-footer-height: 35px;
+	height: $very-footer-height;
+	line-height: $very-footer-height;
 	padding: 0px;
 
 	background-color: $primary-red-dark;
 
-	font-size: 1em;
+	font-size: .75em;
 	color: white;
 	font-family: $font-stack;
 	font-weight: 400;
