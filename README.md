@@ -13,7 +13,7 @@ Home for my personal [website][1]
 4. <span style="text-decoration: line-through;">Experiment with colouring backgrounds of sections in modals.</span>
 5. <span style="text-decoration: line-through;">Experiment with a smaller scrolled nav</span>
 7. <span style="text-decoration: line-through;">Try putting top-margins on active nav items</span>
-6. Alter the contact.php app to redirect where it came from rather than to a static link to [sjd.co][1]
+6. <span style="text-decoration: line-through;">Alter the contact.php app to redirect where it came from rather than to a static link to [sjd.co][1] </span>
 
 
 ### Done:
