@@ -29,8 +29,7 @@
 	margin-bottom: $vertical-space/2;
 	&:hover {
 		img {
-			-webkit-filter: blur(5px);
-			filter: blur(5px);
+
 		}
 	}
 	margin: 0;
@@ -41,7 +40,7 @@
 	z-index: 1000;
 	position: absolute;
 
-	background-color: rgba($primary-red,.6);
+	background-color: rgba($primary-red,.85);
 
 	overflow: hidden;
 
