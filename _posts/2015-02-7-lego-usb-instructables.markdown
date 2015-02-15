@@ -7,6 +7,7 @@ img2:
 img3: 
 date: 2014-2-8
 modalId: 6
+slug: lego-usb
 projectDate: August 2012
 client: University
 service: Print Design

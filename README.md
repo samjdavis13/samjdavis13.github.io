@@ -8,8 +8,12 @@ Home for my personal [website][1]
 2. Add in real, final content.
 1. Setup Google Analytics Tracking
 
-#### v0.12.1
-1. Change hash links to 'portfolio-x' instead of 'portfoliomodal-x's
+#### v0.12.1 (Portfolio Mod Update)
+1. ~~Change hash links to 'portfolio-x' instead of 'portfoliomodal-x's~~
+2. On modal close, make hash #portfolio
+2. Make portfolio grid col-xs-2 ratehr than defaulting to 1
+3. Add a piece of text such as (click one) underneath portfolio.
+4. Remove img blur on portfolio items.
 
 ### Done:
 

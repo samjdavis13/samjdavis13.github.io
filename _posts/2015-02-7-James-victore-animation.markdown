@@ -5,6 +5,7 @@ video: <iframe src="//player.vimeo.com/video/118972567" webkitallowfullscreen mo
 img: /img/jamesv1.jpg
 date: 2015-1-7
 modalId: 4
+slug: james-victore
 projectDate: July 2013
 client: University Assignment
 service: Animation

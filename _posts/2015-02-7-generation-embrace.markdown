@@ -7,6 +7,7 @@ img2:
 img3: 
 date: 2014-2-9
 modalId: 3
+slug: generation-embrace
 projectDate: October 2014
 client: University
 service: Brand Creation
