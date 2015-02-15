@@ -1,16 +1,18 @@
 # SJD.co
 Home for my personal [website][1]
 
-### Todo:
+## Todo:
+
+#### v1.1
+- [ ] COMPLETELY CLEAN UP CSS - BIG JOB
 
 #### v1.0
-- [ ] COMPLETELY CLEAN UP CSS - BIG JOB
 - [ ] Add in real, final content.
 - [ ] Setup Google Analytics Tracking
 - [ ] Bring back the lightbulb in the lightroom experience field
 
 
-### Done:
+## Done:
 #### v0.13 (Portfolio Mod Update)
 - [x] ~~Change hash links to 'portfolio-x' instead of 'portfoliomodal-x's~~ Perform magical wizardry on the modal links
 - [x] On modal close, make hash '#/'
