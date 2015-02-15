@@ -4,6 +4,10 @@
 	h3 {
 		color: $primary-navy;
 	}
+	h6.subtitle {
+		margin-top: -40px;
+		font-size: 1.25em;
+	}
 	img {
 		z-index: 0;
 		width: 100%;
@@ -76,4 +80,4 @@
 			bottom: 0;
 		}
 	}
-}
+} 

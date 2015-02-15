@@ -12,8 +12,8 @@ Home for my personal [website][1]
 
 - [x] Change hash links to 'portfolio-x' instead of 'portfoliomodal-x's
 - [x] On modal close, make hash '#/'
-- [ ] ~~Make portfolio grid col-xs-6 ratehr than defaulting to 1~~ Rewrite/Restyle entire grid system 😒
-- [ ] Add a piece of text such as (click one) underneath portfolio.
+- [x] ~~Make portfolio grid col-xs-6 ratehr than defaulting to 1~~ Rewrite/Restyle entire grid system 😒
+- [x] Add a piece of text such as (click one) underneath portfolio.
 - [ ] Remove img blur on portfolio items.
 
 
