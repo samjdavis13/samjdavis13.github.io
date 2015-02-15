@@ -7,6 +7,7 @@ img2:
 img3: 
 date: 2014-2-11
 modalId: 1
+slug: macc-website
 projectDate: March 2014
 client: Mount Annan Christian College
 service: Web Design

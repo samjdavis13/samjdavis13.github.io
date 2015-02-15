@@ -23,12 +23,9 @@ $(window).scroll(function() {
 // Loads the correct modal based on hash links
 $(document).ready(function() {
   if (window.location.hash != "") {
-    for (x = 1; x <= 100; x++) {
-      windowhash = window.location.hash.toLowerCase();
-      possibleModal = "#portfoliomodal-".concat(x)
-      if (windowhash == possibleModal) {
-        $(possibleModal).modal('show');
-      }
+    windowhash = window.location.hash.toLowerCase();
+    if ($(windowhash).hasClass('modal')) {
+      $(windowhash).modal('show');
     }
   }
 });
@@ -37,6 +34,10 @@ $(document).ready(function() {
 $(window).on('shown.bs.modal', function(){
     currentModal = $('.in');
     window.location.hash = currentModal.attr('id');
+});
+
+$(window).on('hide.bs.modal', function(){
+    window.location.hash = "#/";
 });
 
 /*=================================
