@@ -7,6 +7,7 @@ Home for my personal [website][1]
 - [ ] COMPLETELY CLEAN UP CSS - BIG JOB
 - [ ] Add in real, final content.
 - [ ] Setup Google Analytics Tracking
+- [ ] Bring back the lightbulb in the lightroom experience field
 
 
 ### Done:
