@@ -8,17 +8,23 @@ Home for my personal [website][1]
 - [ ] Add in real, final content.
 - [ ] Setup Google Analytics Tracking
 
-#### v0.12.1 (Portfolio Mod Update)
 
+### Done:
+#### v0.12.1 (Portfolio Mod Update)
 - [x] Change hash links to 'portfolio-x' instead of 'portfoliomodal-x's
 - [x] On modal close, make hash '#/'
 - [x] ~~Make portfolio grid col-xs-6 ratehr than defaulting to 1~~ Rewrite/Restyle entire grid system 😒
 - [x] Add a piece of text such as (click one) underneath portfolio.
 - [x] Remove img blur on portfolio items.
 
+#### v0.12
+- [x] Make nicer social icons
+- [x] Experiment with colouring backgrounds of sections in modals.
+- [x] Experiment with a smaller scrolled nav
+- [x] Try putting top-margins on active nav items
+- [x] Alter the contact.php app to redirect where it came from rather than to a static link to sjd.co
 
-### Done:
-
+#### v0.1 - v0.12
 - [x] Hover on portfolio items 
 - [x] Modals for portofolio items
 - [x] Implement smooth scrolling nav links
@@ -35,18 +41,4 @@ Home for my personal [website][1]
 - [x] Add job breakdown of tools used to each job.
 - [x] Add Git/Github as a language experience field
 
-#### v0.12
-- [x] Make nicer social icons
-- [x] Experiment with colouring backgrounds of sections in modals.
-- [x] Experiment with a smaller scrolled nav
-- [x] Try putting top-margins on active nav items
-- [x] Alter the contact.php app to redirect where it came from rather than to a static link to [sjd.co][1] 
-
-[1]:	http://sjd.co/	
-
-<!--
-Code for strikethrough...
-
-
-
--->
+[1]:	http://sjd.co/
