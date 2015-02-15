@@ -1,6 +1,6 @@
 ---
 layout: default
-title: James Victore Animation
+title: James V. Animation
 video: <iframe src="//player.vimeo.com/video/118972567" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 img: /img/jamesv1.jpg
 date: 2015-1-7

@@ -1,5 +1,5 @@
 <article class="article-wrap" id="portfolio">
-	<div class="container">
+	<div class="container portfolio-container">
 		<div class="row center-block text-center">
 			<div class="col-md-12">
 				<h3 class="text-center">PORTFOLIO</h3>
@@ -8,7 +8,7 @@
 
 				<!-- Ordering logic based off of the modalId -->
 				{% for weight in (1..100) %}{% for post in site.posts %}{% if post.modalId == weight %}
-				<div class="col-sm-6 col-md-4 portfolio-item">
+				<div class="col-xs-6 col-md-4 portfolio-item">
 					<a href="#{{ post.slug }}" data-toggle="modal" data-keyboard="true" class="portfolio-modal-link">
 						<div class="caption">
 							<div class="caption-content">
