@@ -21,6 +21,9 @@ Home for my personal [website][1]
 ##### Bug Fix
 - Restored the missing lightbulb from lightroom experience
 
+### v1.0.1 Additions:
+- Added a todo.md rather than using README.md for that.
+
 [1]: http://sjd.co
 [2]: http://jekyllrb.com
 [3]: http://getbootstrap.com
