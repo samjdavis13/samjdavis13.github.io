@@ -11,7 +11,7 @@ Home for my personal [website][1]
 
 ### Done:
 #### v0.12.1 (Portfolio Mod Update)
-- [x] Change hash links to 'portfolio-x' instead of 'portfoliomodal-x's
+- [x] ~~Change hash links to 'portfolio-x' instead of 'portfoliomodal-x's~~ Perform magical wizardry on the modal links
 - [x] On modal close, make hash '#/'
 - [x] ~~Make portfolio grid col-xs-6 ratehr than defaulting to 1~~ Rewrite/Restyle entire grid system 😒
 - [x] Add a piece of text such as (click one) underneath portfolio.
