@@ -1,3 +1,10 @@
+String.prototype.splice = function (index, string) {
+  if (index > 0)
+    return this.substring(0, index) + string + this.substring(index, this.length);
+  else
+    return string + this;
+};
+
 /*==================================
 ---------- SCROLL WATCHER ----------
 ==================================*/
@@ -23,7 +30,7 @@ $(window).scroll(function() {
 // Loads the correct modal based on hash links
 $(document).ready(function() {
   if (window.location.hash != "") {
-    windowhash = window.location.hash.toLowerCase();
+    windowhash = window.location.hash.toLowerCase().replace("/","");
     if ($(windowhash).hasClass('modal')) {
       $(windowhash).modal('show');
     }
@@ -33,7 +40,8 @@ $(document).ready(function() {
 // Changes url.hash to be #modalId-x when a modal is opened.
 $(window).on('shown.bs.modal', function(){
     currentModal = $('.in');
-    window.location.hash = currentModal.attr('id');
+    $fakePath = currentModal.attr('id').splice(0,"/");
+    window.location.hash = $fakePath;
 });
 
 $(window).on('hide.bs.modal', function(){
