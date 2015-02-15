@@ -6,12 +6,12 @@ Home for my personal [website][1]
 #### v1.1
 - [ ] COMPLETELY CLEAN UP CSS - BIG JOB
 
+## Done:
 #### v1.0
 - [x] Bring back the lightbulb in the lightroom experience field
 - [x] Add in real, final content.
 - [x] Setup Google Analytics Tracking
 
-## Done:
 #### v0.13 (Portfolio Mod Update)
 - [x] ~~Change hash links to 'portfolio-x' instead of 'portfoliomodal-x's~~ Perform magical wizardry on the modal links
 - [x] On modal close, make hash '#/'
