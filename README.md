@@ -9,7 +9,7 @@ Home for my personal [website][1]
 #### v1.0
 - [x] Bring back the lightbulb in the lightroom experience field
 - [x] Add in real, final content.
-- [ ] Setup Google Analytics Tracking
+- [x] Setup Google Analytics Tracking
 
 ## Done:
 #### v0.13 (Portfolio Mod Update)
