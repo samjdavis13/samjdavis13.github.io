@@ -8,7 +8,7 @@ Home for my personal [website][1]
 
 #### v1.0
 - [x] Bring back the lightbulb in the lightroom experience field
-- [ ] Add in real, final content.
+- [x] Add in real, final content.
 - [ ] Setup Google Analytics Tracking
 
 ## Done:
