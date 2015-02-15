@@ -7,10 +7,9 @@ Home for my personal [website][1]
 - [ ] COMPLETELY CLEAN UP CSS - BIG JOB
 
 #### v1.0
+- [x] Bring back the lightbulb in the lightroom experience field
 - [ ] Add in real, final content.
 - [ ] Setup Google Analytics Tracking
-- [ ] Bring back the lightbulb in the lightroom experience field
-
 
 ## Done:
 #### v0.13 (Portfolio Mod Update)

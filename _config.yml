@@ -27,7 +27,7 @@ apps:
  lightroom:
   name: 'Lightroom'
   skill: 80
-  icon: <i class="fa fa-lightbulb"></i>
+  icon: <i class="fa fa-lightbulb-o"></i>
  finalcut:
   name: 'Final Cut Pro X'
   skill: 50
