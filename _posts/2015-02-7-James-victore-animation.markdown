@@ -8,7 +8,7 @@ modalId: 4
 slug: james-victore
 projectDate: July 2013
 client: University Assignment
-service: Animation
+service: Typography / Animation
 
 tools: [After Effects,Illustrator,Photoshop]
 values: [40,40,20]
