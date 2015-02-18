@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Drum Tutor
+thumb: /img/drumtutor-thumb.jpg
 img: /img/drumtutor1.jpg
 img2: /img/drumtutor2.jpg
 date: 2014-2-7

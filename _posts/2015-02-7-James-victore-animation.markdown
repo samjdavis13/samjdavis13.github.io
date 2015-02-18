@@ -2,6 +2,7 @@
 layout: default
 title: James V. Animation
 video: <iframe src="//player.vimeo.com/video/118972567" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+thumb: /img/jamesv-thumb.jpg
 img: /img/jamesv1.jpg
 date: 2015-1-7
 modalId: 4

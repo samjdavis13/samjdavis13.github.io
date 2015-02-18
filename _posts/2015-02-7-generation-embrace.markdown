@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Generation Embrace
-video: 
+thumb: /img/genembrace-thumb.jpg
 img: /img/genembrace1.jpg
-img2: 
-img3: 
 date: 2014-2-9
 modalId: 3
 slug: generation-embrace

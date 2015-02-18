@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Bingara Electrical
-img: /img/bingara1.png
+thumb: /img/bingara-thumb.jpg
+img: /img/bingara1.jpg
 date: 2015-1-24
 modalId: 2
 slug: bingara-electrical

@@ -2,6 +2,7 @@
 layout: default
 title: Lego USB Instructable
 video: 
+thumb: img/lego-thumb.jpg
 img: img/lego1.jpg
 img2: 
 img3: 

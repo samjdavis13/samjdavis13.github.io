@@ -2,9 +2,8 @@
 layout: default
 title: MACC Website
 video: 
-img: /img/macc1.jpg
-img2: 
-img3: 
+thumb: /img/macc-thumb.jpg
+img: /img/macc1.jpg 
 date: 2014-2-11
 modalId: 1
 slug: macc-website
