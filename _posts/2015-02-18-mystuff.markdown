@@ -1,0 +1,19 @@
+---
+layout: default
+title: My Stuff Inventory
+thumb: /img/mystuff-thumb.jpg
+img: /img/mystuff.jpg
+date: 2015-2-08
+modalId: 7
+slug: mystuff
+projectDate: October 2013
+client: University
+service: Infographic
+
+tools: ['Illustrator', 'InDesign']
+values: [60,40]
+
+brief: To conduct an audit of all of the things that I own, then create an information graphic from the resulting information
+execution: I decided to base my project around 3 key areas:<ul><li>Value (emotional and symbolic)</li><li>Value (monetary)</li><li>Age</li></ul><p>The result was a clear representation of the things that I own and their accompanying value.</p>
+
+---
