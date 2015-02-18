@@ -20,7 +20,12 @@
 							</div>
 						</div>
 					</a>
-					<img src="{{ post.img }}">
+					{% if post.thumb %}
+						<img src="{{ post.thumb }}">
+					{% else %}
+						<img src="{{ post.img }}">
+					{% endif %}
+
 				</div>
 				{% endif %}{% endfor %}{% endfor %}
 
