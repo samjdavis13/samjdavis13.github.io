@@ -1,0 +1,31 @@
+<div id="modal-carousel-{{ post.modalId }}" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+
+    {% for slide in post.imgSlides %}
+      <li data-target="modal-carousel-{{ post.modalId }}" data-slide-to="{{ forloop.index0 }}" {% if forloop.index0 == 0 %}class='active'{% endif %}></li>
+    {% endfor %}
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+
+    {% for slide in post.imgSlides %}
+      <div class="item {% if forloop.index0 == 0 %}active{% endif %}">
+        <img src="{{ post.imgSlides[forloop.index0] }}">
+      </div>
+    {% endfor %}
+
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#modal-carousel-{{ post.modalId }}" role="button" data-slide="prev">
+    <span class="fa fa-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#modal-carousel-{{ post.modalId }}" role="button" data-slide="next">
+    <span class="fa fa-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

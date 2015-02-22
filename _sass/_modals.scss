@@ -115,3 +115,34 @@
 		}
 	}
 }
+
+.carousel {
+	.carousel-inner {
+		max-height: 1080px !important;
+		.item {
+			
+			img {
+				
+			}
+		}
+	}
+	.carousel-control {
+		position: absolute;
+		padding-top: 25%;
+		background: none;
+		color: $primary-navy;
+		opacity: .8;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.left {
+		
+	}
+	.right {
+		
+	}
+	.carousel-indicators {
+		margin-bottom: 5px;
+	}
+}

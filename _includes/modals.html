@@ -24,12 +24,17 @@
 				</div>
 			</section>
 
+
 			<section class="modal-section portfolio-showcase">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1">
 							<div class="row">
-								<!-- If theres a video, use that. Else use img1 -->
+								{% if post.imgSlides.size > 0 %}
+									<div class="col-sm-12">
+										{% include modal-carousel.html %}
+									</div>
+								{% endif %}
 								{% if post.video %}
 								<div class="col-sm-12 video-row">
 									<div class="embed-responsive embed-responsive-16by9">
@@ -42,13 +47,12 @@
 								</div>
 								{% endif %}
 
-								<!-- If there's no img3 make img2 full width -->
 								{% if post.img3 == null %}
-								{% if post.img2 %}
-								<div class="col-sm-12">
-									<img src="{{ post.img2 }}" class="portfolio-img img-centered">
-								</div>
-								{% endif %}
+									{% if post.img2 %}
+									<div class="col-sm-12">
+										<img src="{{ post.img2 }}" class="portfolio-img img-centered">
+									</div>
+									{% endif %}
 								{% else %}
 								{% if post.img2 or post.img3 %}
 								<div class="row">
