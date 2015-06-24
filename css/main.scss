@@ -3,19 +3,19 @@
 ---
 @charset "utf-8";
 
-$primary-red:		#E87568;
-$primary-red-dark:	#C26257;
-$primary-navy:		#2C3E50;
+$primary-red:       #E87568;
+$primary-red-dark:  #C26257;
+$primary-navy:      #2C3E50;
 $primary-navy-light: lighten($primary-navy,5%);
 
-$background-grey:	darken(white,10%);
+$background-grey:   darken(white,15%);
 
 $vertical-space: 50px;
 
 $nav-height: 90px;
 $small-nav-height: 60px; // Also needs updating in sjd.js and default.html (data-offset attr)
 
-$font-stack: "Avenir Next", "Avenir", "Open Sans", "Verdana", "Helvetica", "arial", sans-serif;
+$font-stack: "Avenir Next", "Avenir", "avenir-webfont", "Open Sans", "Verdana", "Helvetica", "arial", sans-serif;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -63,17 +63,65 @@ a.symbol:before {
     font-size: 130%;
 }
 
+@font-face {
+    font-family: 'avenir-webfont';
+    src: url('/fonts/avenir-next-bold-webfont.eot');
+    src: url('/fonts/avenir-next-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/avenir-next-bold-webfont.woff2') format('woff2'),
+         url('/fonts/avenir-next-bold-webfont.woff') format('woff'),
+         url('/fonts/avenir-next-bold-webfont.ttf') format('truetype'),
+         url('/fonts/avenir-next-bold-webfont.svg#avenir-webfont') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'avenir-webfont';
+    src: url('/fonts/avenir-next-demi-webfont.eot');
+    src: url('/fonts/avenir-next-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/avenir-next-demi-webfont.woff2') format('woff2'),
+         url('/fonts/avenir-next-demi-webfont.woff') format('woff'),
+         url('/fonts/avenir-next-demi-webfont.ttf') format('truetype'),
+         url('/fonts/avenir-next-demi-webfont.svg#avenir-webfont') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'avenir-webfont';
+    src: url('/fonts/avenir-next-regular-webfont.eot');
+    src: url('/fonts/avenir-next-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/avenir-next-regular-webfont.woff2') format('woff2'),
+         url('/fonts/avenir-next-regular-webfont.woff') format('woff'),
+         url('/fonts/avenir-next-regular-webfont.ttf') format('truetype'),
+         url('/fonts/avenir-next-regular-webfont.svg#avenir-webfont') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'avenir-webfont';
+    src: url('/fonts/avenir-next-light-webfont.eot');
+    src: url('/fonts/avenir-next-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/avenir-next-light-webfont.woff2') format('woff2'),
+         url('/fonts/avenir-next-light-webfont.woff') format('woff'),
+         url('/fonts/avenir-next-light-webfont.ttf') format('truetype'),
+         url('/fonts/avenir-next-light-webfont.svg#webfontregular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "sjdhelpers",
-	"general",
-	"nav",
-	"hero",
-	"portfolio-grid",
-	"about",
-	"contact",
-	"footer",
+    "general",
+    "nav",
+    "hero",
+    "portfolio-grid",
+    "about",
+    "contact",
+    "footer",
     "modals",
     "layout"
 ;

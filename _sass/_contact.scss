@@ -5,7 +5,7 @@
 #contact input, #contact textarea {
 	height: 50px;
 	font-size: 1.5em;
-	font-family: 'Avenir Next';
+	font-family: $font-stack;
 	font-weight: 500;
 	
 	border: 0;
@@ -17,7 +17,7 @@
 }
 
 #contact input::-webkit-input-placeholder, #contact textarea::-webkit-input-placeholder {
-   color: darken(white,10%);
+   color: $background-grey;
 }
 
 .site-button, #contactButtonSend {
