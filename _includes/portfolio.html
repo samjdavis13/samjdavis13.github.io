@@ -8,7 +8,7 @@
 			<div class="row portfolio-row">
 
 				<!-- Ordering logic based off of the modalId -->
-				{% for weight in (1..100) %}{% for post in site.posts %}{% if post.modalId == weight %}
+				{% for post in site.posts %}
 				<div class="col-xs-6 col-md-4 portfolio-item">
 					<a href="#{{ post.slug }}" data-toggle="modal" data-keyboard="true" class="portfolio-modal-link">
 						<div class="caption">
@@ -27,7 +27,7 @@
 					{% endif %}
 
 				</div>
-				{% endif %}{% endfor %}{% endfor %}
+				{% endfor %}
 
 			</div>
 		</div>

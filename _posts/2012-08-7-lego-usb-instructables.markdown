@@ -6,7 +6,7 @@ thumb: img/lego-thumb.jpg
 img: img/lego1.jpg
 img2: 
 img3: 
-date: 2014-2-8
+date: 2012-08-07
 modalId: 6
 slug: lego-usb
 projectDate: August 2012

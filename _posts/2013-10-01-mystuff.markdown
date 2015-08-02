@@ -3,7 +3,7 @@ layout: default
 title: My Stuff Inventory
 thumb: /img/mystuff-thumb.jpg
 img: /img/mystuff.jpg
-date: 2015-2-08
+date: 2013-10-01
 modalId: 7
 slug: mystuff
 projectDate: October 2013

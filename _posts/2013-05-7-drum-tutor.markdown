@@ -4,7 +4,7 @@ title: Drum Tutor
 thumb: /img/drumtutor-thumb.jpg
 img: /img/drumtutor1.jpg
 img2: /img/drumtutor2.jpg
-date: 2014-2-7
+date: 2013-05-7
 modalId: 5
 slug: drum-tutor
 projectDate: May 2013

@@ -1,0 +1,19 @@
+---
+layout: default
+title: Italian Cuisine
+thumb: /img/italiano-thumb.jpg
+img: /img/italiano.jpg
+date: 2013-04-01
+modalId: 7
+slug: italiano
+projectDate: April 2013
+client: University
+service: Website
+
+tools: ['Illustrator', 'InDesign']
+values: [60,40]
+
+brief: To design and build a website for a cuisine of our own choosing. The website was to act as an ambassador for our chosen cuisine
+execution: <p>I chose to design a website that did not contain stereotypical Italian elements as I felt that this can often lead to 'cheesy' designs. I believe that even so, this website was still recognisable as an Italian themed website.<br>I believe that the result was a clean and simple web layout that communicated its content well.</p><p>View the website at <a href="http://samjdavis.com/italiano">samjdavis.com/italiano</a></p>
+
+---

@@ -4,7 +4,7 @@ title: MACC Website
 video: 
 thumb: /img/macc-thumb.jpg
 img: /img/macc1.jpg 
-date: 2014-2-11
+date: 2014-03-7
 modalId: 1
 slug: macc-website
 projectDate: March 2014
