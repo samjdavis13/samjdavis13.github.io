@@ -1,0 +1,23 @@
+---
+layout: default
+title: Yugen Hotels
+thumb: /img/yugen-thumb.png
+imgSlides: ["/img/yugen-1.png","/img/yugen-2.jpg","/img/yugen-3.jpg","/img/yugen-4.jpg"]
+date: 2015-7-2
+modalId: 2
+slug: yugen-hotels
+projectDate: July 2015
+client: Forge Creative
+service: "Branding & Web Design"
+
+tools: ['Illustrator','InDesign', 'Sublime Text']
+values: [50,25,25]
+
+code: [HTML,CSS,JavaScript]
+codeValue: [40,40,20]
+
+brief: During an Internship at <a href="http://weareforge.co/" target="_blank">Forge Creative</a> I was tasked with creating a visual identity and website for the fictitious company, Yugen Hotels and Suites. 
+execution: My execution included a geometric based logo that played with the 'y' from Yugen's name. Along with a logo, I developed a brand usage style guide along with a functioning website prototype which can be viewed at <a href="http://sjd.co/yugen-hotels/">sjd.co/yugen-hotels</a>.
+
+---
+Hey!

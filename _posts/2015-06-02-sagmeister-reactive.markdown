@@ -3,7 +3,7 @@ layout: default
 title: Sagmeister & Reactive
 thumb: /img/sag-react-thumb.jpg
 img: /img/sag-react.jpg
-date: 2015-8-2
+date: 2015-6-2
 modalId: 2
 slug: sagmeister-reactive
 projectDate: May 2015
