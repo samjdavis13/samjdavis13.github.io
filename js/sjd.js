@@ -84,6 +84,39 @@ $(function() {
   });
 });
 
+// FOOTER LINK
+$(function() {
+  $('.very-footer a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - 200
+        }, 3000);
+        return false;
+      }
+    }
+  });
+});
+
+
+/*===========================================
+-------- SUPER SAIYAN SAM EASTER EGG --------
+===========================================*/
+
+$('#super-saiyan').click(function(){
+
+  // Replace img
+  $("#sam-portrait").attr("src", "img/super-saiyan-me-2.gif");
+
+  // Replace description
+  $("#hero-text-2").text("SUPER SAIYAN");
+
+  // Play sound
+  $("#super-saiyan-sound")[0].play()
+
+});
 
 /*=================================
 ---------- FORM VALIDATOR ---------

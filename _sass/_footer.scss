@@ -44,3 +44,11 @@
 	font-family: $font-stack;
 	font-weight: 400;
 }
+
+.invisible-link {
+	color: white;
+	&:hover {
+		color: white;
+		text-decoration: none;
+	}
+}
